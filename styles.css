@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 375px;
+    height: fit-content;
+    padding: 0 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 20px auto; /* Margen superior e inferior de 20px, centrado horizontalmente */
+    border: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+h1 {
+    width: 343px;
+    height: 38px;
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.inputCustomizado {
+    width: 343px; /* Ancho fijo de 343px */
+    height: 120px; /* Altura fija de 120px */
+    padding: 16px; /* Relleno de 16px en todos los lados */
+    border-radius: 16px; /* Borde redondeado de 16px */
+    border: 2px solid #000000; /* Borde sólido de 2px */
+    gap: 4px; /* Espaciado entre elementos adyacentes */
+    font-size: 16px; /* Tamaño de fuente de 16px */
+  }
+
+  button {
+    width: 343px;
+    height: 45px;
+    padding: 8px 16px; /* 8px arriba y abajo, 16px a la izquierda y derecha */
+    border-radius: 16px;
+    gap: 8px;
+    background: #4F4F4F;
+    border: none; /* Elimina el borde */
+    color: #FFFFFF; /* Color del texto */
+    font-size: 20px; /* Tamaño de la fuente */
+    font-weight: bold; /* Peso de la fuente */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    margin-left: 16px; /* Espacio superior */
+}
+
+button:hover {
+    background: #333333; /* Cambia el color de fondo al pasar sobre el botón */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button.delete {
+    margin-left: 10px;
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}   
